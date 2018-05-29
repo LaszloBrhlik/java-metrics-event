@@ -13,9 +13,9 @@ public class Event {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
 
-  LocalDateTime time;
-  String level;
-  String ServiceName;
+  private LocalDateTime time;
+  private String level;
+  private String ServiceName;
 
   public Event() {
   }
